@@ -71,6 +71,8 @@ sudo tar -zxf ${WORKING_DIRECTORY}/gamelift-boost.tar.gz
 sudo tar -Jxf ${WORKING_DIRECTORY}/funapi-install.tar.xz
 sudo tar -zxf ${WORKING_DIRECTORY}/gamelift-demo_0.0.1_install-field.tar.gz
 sudo tar -zxf ${WORKING_DIRECTORY}/gamelift-demo_0.0.1_install-instance.tar.gz
+sudo cp ${WORKING_DIRECTORY}/MANIFEST/field/MANIFEST.json /usr/share/gamelift_demo/field/manifests/MANIFEST.json
+sudo cp ${WORKING_DIRECTORY}/MANIFEST/instance/MANIFEST.json /usr/share/gamelift_demo/instance/manifests/MANIFEST.json
 popd
 
 sudo mkdir -p /var/log/funapi/gamelift_demo.field/activity \

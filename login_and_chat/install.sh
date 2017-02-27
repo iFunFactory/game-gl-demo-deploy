@@ -71,6 +71,7 @@ sudo tar -zxf ${WORKING_DIRECTORY}/gamelift-boost.tar.gz
 sudo tar -Jxf ${WORKING_DIRECTORY}/funapi-install.tar.xz
 sudo tar -xzf ${WORKING_DIRECTORY}/gamelift-demo_0.0.1_install-login.tar.gz
 sudo tar -xzf ${WORKING_DIRECTORY}/gamelift-demo_0.0.1_install-chat.tar.gz
+sudo cp ${WORKING_DIRECTORY}/MANIFEST/login/MANIFEST.json /usr/share/gamelift_demo/login/manifests/MANIFEST.json
 popd
 
 sudo cp ${WORKING_DIRECTORY}/libaws-cpp-sdk* /usr/lib/
