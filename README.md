@@ -47,7 +47,7 @@ Please refer to the ``Access Keys`` section of this link: http://docs.aws.amazon
 
 * Get an Amazon Linux instance from EC2.
 * Copy the content of ``login_and_chat`` subdirectory to the VM instance.
-* Please make sure you should apply the AWS credential to the default user of the VM instance (i.e., ``ec2-user``)
+* Please make sure you apply the AWS credential to the default user of the VM instance (i.e., ``ec2-user``)
 * As with the field server and the instnace world server, fill aliases in ``MANIFEST/login/MANIFEST.json`` and fill the public IP of the database VM.
 * Run ``install.sh``
 * After the installation script finishes, run ``sudo start gamelift_demo.login`` and ``sudo start gamelift_demo.chat``.
